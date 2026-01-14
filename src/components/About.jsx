@@ -3,10 +3,10 @@ import worlingman from "../assets/3d man3.png"
 
 const AboutSection = () => {
   return (
-    <section className="bg-slate-900 rounded-2xl text-white py-16 px-6">
+    <section id="about" className="bg-slate-900 rounded-2xl text-white py-16 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
-        <h2 className="text-3xl font-semibold mb-10">About</h2>
+        <h2 className="text-3xl font-bold mb-10">About</h2>
 
         {/* Content */}
         <div className="flex flex-col lg:flex-row items-center gap-12">

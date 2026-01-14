@@ -35,27 +35,28 @@ const Header = () => {
           ${menu ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-3 pointer-events-none"}
         `}
       >
-        <a href="#About" onClick={() => setMenu(false)}>
+        <a href="#about" onClick={() => setMenu(false)}>
           <li className="text-white">About</li>
         </a>
-        <a href="#Experience" onClick={() => setMenu(false)}>
-          <li className="text-white">Experience</li>
+        <a href="#skills" onClick={() => setMenu(false)}>
+          <li className="text-white">Skills</li>
         </a>
-        <a href="#Projects" onClick={() => setMenu(false)}>
+        <a href="#projects" onClick={() => setMenu(false)}>
           <li className="text-white">Projects</li>
         </a>
-        <a href="#Footer" onClick={() => setMenu(false)}>
+        <a href="#footer" onClick={() => setMenu(false)}>
           <li className="text-white">Contact</li>
         </a>
       </ul>
 
       {/* DESKTOP MENU */}
       <ul className="hidden md:flex gap-6 font-semibold absolute right-20 top-6 text-white">
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <a href="#about"><li>About</li></a>
+        <a href="#skills"><li>Skills</li></a>
+        <a href="#projects"><li>Projects</li></a>
+        <a href="#contact"><li>Contact</li></a>
       </ul>
+
     </header>
   );
 };

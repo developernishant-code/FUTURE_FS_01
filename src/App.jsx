@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './components/Header'
 import Home from './components/Home'
 import AboutSection from './components/About'
+import Skills from './components/Skilssection'
+import Projects from './components/Projects'
 
 
 const App = () => {
@@ -11,6 +13,9 @@ const App = () => {
         <Header />
         <Home />
         <AboutSection />
+        <Skills />
+        <Projects />
+        
       </div>
 
     </div>

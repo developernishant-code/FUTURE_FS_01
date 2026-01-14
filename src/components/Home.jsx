@@ -6,7 +6,7 @@ import TextChange from "./Textchange";
 
 const Home = () => {
   return (
-    <div className="text-white flex flex-col-reverse md:flex-row w-full justify-between  items-center p-8 md:p-20">
+    <div  className="text-white flex flex-col-reverse md:flex-row w-full justify-between  items-center p-8 md:p-20">
 
       {/* LEFT CONTENT */}
       <div className="md:w-1/2 md:pt-10 text-center md:text-left">
@@ -32,7 +32,7 @@ const Home = () => {
         <img
           src={avatarimg}
           alt="avatar"
-          className="w-56 sm:w-64 md:w-96 lg:w-100"
+          className="w-56 sm:w-64 md:w-96  lg:w-100"
         />
       </div>
     </div>

@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gradient-to-b from-[#0b1120] to-[#0f172a] py-28"
+      className="bg-slate-900 py-28"
     >
       <div className="max-w-6xl mx-auto px-6">
         

@@ -4,6 +4,8 @@ import Home from './components/Home'
 import AboutSection from './components/About'
 import Skills from './components/Skilssection'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -15,7 +17,8 @@ const App = () => {
         <AboutSection />
         <Skills />
         <Projects />
-        
+        <Contact />
+        <Footer />
       </div>
 
     </div>

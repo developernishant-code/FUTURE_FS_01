@@ -1,5 +1,5 @@
 import React from "react";
-
+import Resume from "../assets/Resume.pdf"
 import avatarimg from "../assets/avatar.png";
 import TextChange from "./Textchange";
 
@@ -19,7 +19,7 @@ const Home = () => {
         </p>
 
 
-        <a href="/resume.pdf" download="My_Resume.pdf">
+        <a href={Resume} download="My_Resume.pdf">
           <button className="mt-6 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
             Download Resume
           </button>
